@@ -9,11 +9,11 @@ This program is designed to faking DNS answer packet.It sends RAW eth packet thr
 
 
 ##Usage
-1.compile the program
-2.write config_DNS.txt file in the same folder of the executable file. The first line of the file follow the rule of Winpcap filter file. And the second line is the IP address you want to wirte in the answer packet.Here is an example.
+1.	compile the program
+2.	write config_DNS.txt file in the same folder of the executable file. The first line of the file follow the rule of Winpcap filter file. And the second line is the IP address you want to wirte in the answer packet.Here is an example.
 `ip proto udp and dst port 53 `
 `192.168.1.1` 
-3.run the program choose the netcard.
+3.	run the program choose the netcard.
 
 ##Lisence
 The program is under MIT lisence.
